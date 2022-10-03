@@ -1,0 +1,47 @@
+# dsa, module 1
+Data structures; specialized format for arranging and storing data so that it is efficient
+# can be seen as a way for clustering/grouping data for easier manipulation; searching, sorting 
+
+Data refers to raw information, unprocessed which cannot be manipulated/made sense of 
+
+Database refers to organised data, indexed, meaning
+
+note: data structures are stored in volatile memory
+
+Algorithm refers to a series of steps undertaken to solve a given problem. 
+
+Asymptotic notation represents a graph of permance of an algorithm on a given data structure 
+
+# types of data structures
+1. Primitive; built-in
+	refers to data structures that only store one type of data type 
+	example: integer, float, char 
+		number = 4
+		float = 1.5
+		one_char = 'A' 
+		
+2. Non-primitive 
+	refers to data structure that can store multiple types of data 
+	example: array, hash 
+		array = [1, 2, 3, "Four", 4.5]
+		hash = {:one => 1, :two => 2, "three" => 3}
+		
+# non-primitive data structures can further be classified into linear & non-linear 
+Linear: data is organised sequentially/ordered
+Non-linear: data organised in a hierachical manner rather than sequentially
+	
+# linear data structures can further be class into static and dynamic 
+static data structures usually have a fixed size whereas dynamic ones vary in size
+new_array = Arra.new(4) 
+# dynamic data structures 
+include stack, queue, linked-lists
+
+stack works as an array; LIFO 
+queue is implemented using a FIFO principle 
+
+non-linear data structures include trees and graphs
+
+# note 
+stacks and queues are interchangibly referred to as ADT rather than data structures 
+
+ 
